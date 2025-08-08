@@ -17,7 +17,7 @@ const fahrenheitBtn = document.getElementById('fahrenheit-btn');
 
 // API Configuration
 const API_KEY = 'gaborone.txt'; // Replace with your actual API key
-const BASE_URL = 'https://www.visualcrossing.com/weather-query-builder/#';
+const BASE_URL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/retrievebulkdataset?&key=3WRTTBW9NY2D848YLK7KF22TP&taskId=2ecb0d79b52034a32aefcb8a9efadf1c&zip=false';
 
 // State
 let currentUnit = 'celsius';
